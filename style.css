@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+/* .section1 {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+} */
+/* .section1 h1, p {
+    text-align: center;
+    padding: 30px;
+    margin-top: 20%, 0, 20%, 0;
+    color: red;
+    background-color: blue;
+    
+} */ 
+ body {
+    background-color: black;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+ }
+
+ h1 {
+    font-size: 64px;
+    
+ }
+ h1, .s1p {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+
+ }
+ img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+    width: 60%;
+    margin:auto;
+    padding: 64px 0;
+}
+
+    
+
+h2 {
+    font-weight: 400;
+    font-size: 30px;
+    margin: 15px, 0px, 15px, 0px;
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    /* margin: auto; */
+}
+
+.s2p {
+    color: #757575;
+    line-height: 1.5;
+    font-size: 16px;
+    font-weight: 400;
+   
+}
+
+h3 {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #f1f1f1;
+
+}
+.photo {
+    letter-spacing: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #757575;
+}
+
+/* div{
+    background-color: green;
+    color: #757575;
+    height: 28px;
+    width: 95%;
+} */
+
+.progress{
+    background-color: brown;
+    color: #757575;
+    height: 28px;
+    width: 100%;
+}
+
+.progress__fill {
+    background-color: white;
+    color: #757575;
+    height: 28px;
+    width: 50%;
+
+}
+
+.section3 p {
+     letter-spacing: 4px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #757575;
+
+}
