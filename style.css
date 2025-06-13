@@ -156,6 +156,7 @@ a {
      padding: 12px 30px;
      margin: 16px 0px;
     background-color: white; 
+    font-family: "Montserrat", sans-serif;
     color: black; 
     border: none;
     border-radius: 2px;
@@ -180,22 +181,54 @@ ul{
 }
 
 ul li {
-    border-bottom: 1px solid #ddd;
+    background: #757575;
+    border-bottom: 1px solid #757575;
     padding: 16px 0;
-
-}
-li {
-    background-color: #fff;
     color: #000;
+
 }
 
 .headerList {
-    background-color: #616161;
+    background-color: #272727;
     padding: 32px 16px;
     font-size: 24px;
     color: #fff;
 }
-.payment:hover {
-    color: #fff;
-    background-color: #616161;
+
+.payment1:hover li,
+.payment2:hover li  {
+    color: #000;
+    background-color: #f1f1f1;
+}
+
+.payment1:hover .headerList,
+.payment2:hover .headerList  {
+    background-color: #8d8d8d;
+}
+
+ul button {
+    -webkit-text-size-adjust: 100%;
+    list-style-type: none;
+    box-sizing: inherit;
+    font: inherit;
+    margin: 0;
+    text-transform: none;
+    -webkit-appearance: button;
+    border: none;
+    display: inline-block;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+    user-select: none;
+    padding: 12px 24px!important;
+    color: #000!important;
+    background-color: #fff!important;
+    margin: 20px 0 20px 0;
+}
+
+ul .paymentBtn1 {
+    background-color: #272727;
 }
