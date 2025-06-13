@@ -3,23 +3,13 @@
     padding: 0;
     box-sizing: inherit;
 }
-/* .section1 {
-    text-align: center;
-    width: 80%;
-    margin: auto;
-} */
-/* .section1 h1, p {
-    text-align: center;
-    padding: 30px;
-    margin-top: 20%, 0, 20%, 0;
-    color: red;
-    background-color: blue;
-    
-} */ 
+
  body {
     background-color: black;
     color: white;
     font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
  }
 
  h1 {
@@ -56,7 +46,7 @@ h2 {
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
-    /* margin: auto; */
+
 }
 
 .s2p {
@@ -84,32 +74,128 @@ h3 {
     color: #757575;
 }
 
-/* div{
-    background-color: green;
-    color: #757575;
-    height: 28px;
-    width: 95%;
-} */
-
-.progress{
-    background-color: brown;
-    color: #757575;
-    height: 28px;
-    width: 100%;
-}
-
-.progress__fill {
-    background-color: white;
-    color: #757575;
-    height: 28px;
-    width: 50%;
-
-}
-
 .section3 p {
-     letter-spacing: 4px;
+    letter-spacing: 4px;
     margin-top: 15px;
     margin-bottom: 15px;
-    color: #757575;
+    color: #757575; 
 
+}
+
+.progress{
+    background-color: #616161;
+    height: 29px;
+    width: 100%;
+}
+.bar1 {
+    background-color: white;
+    height: 28px;
+    width: 90%;
+
+}
+.bar2 {
+    background-color: white;
+    height: 28px;
+    width: 80%;
+
+}
+
+.bar3 {
+    background-color: white;
+    height: 28px;
+    width: 70%;
+
+}
+
+.con1 {
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f1f1f1;
+    padding: 16px 50px;
+    margin: 30px 0;
+    height: 90px;
+
+}
+
+.bx {
+    text-align: center;
+    color: #000;
+   
+
+}
+.bx span {
+    font-size: 20px;
+    display: block;
+}
+
+/* .btn {
+    padding: 12px 24px;
+    margin: 16px 0px;
+    color: #000;
+    border: none;
+    webkiap
+    /* background-color: #F1F1F1; */
+/* }
+i {
+    color: #000;
+}
+a {
+     text-decoration: none;
+     font-size: 15px;
+
+}
+.btn :hover {
+    background-color: aqua;
+} */ 
+
+.button1 {
+    font-size: 17px;
+    font-weight: 400;
+     padding: 12px 30px;
+     margin: 16px 0px;
+    background-color: white; 
+    color: black; 
+    border: none;
+    border-radius: 2px;
+}
+.button1:hover {
+  background-color: gainsboro;
+  color: white;
+}
+i{
+    color: #000;
+}
+.payment {
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    background-color: #616161;
+    list-style: none;
+    width: 560px;
+    text-align: center;
+   
+}
+
+ul li {
+    border-bottom: 1px solid #ddd;
+    padding: 16px 0;
+
+}
+li {
+    background-color: #fff;
+    color: #000;
+}
+
+.headerList {
+    background-color: #616161;
+    padding: 32px 16px;
+    font-size: 24px;
+    color: #fff;
+}
+.payment:hover {
+    color: #fff;
+    background-color: #616161;
 }
